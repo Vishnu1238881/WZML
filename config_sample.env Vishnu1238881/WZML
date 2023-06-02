@@ -1,15 +1,9 @@
-# Remove this line before deploying
-_____REMOVE_THIS_LINE_____=True
-
-# RECOMMNED SETUP 
-## Setup only Required Config & DATABASE_URL
-## Rest of variable can be setup using BOT by /bsetting command
 
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = ""
-TELEGRAM_API = ""
-TELEGRAM_HASH = ""
+BOT_TOKEN = "5702371622:AAFrwtHqprFZitIh45x1_tw2E6W_fbBhRIo"
+OWNER_ID = "1258310642"
+TELEGRAM_API = "13305226"
+TELEGRAM_HASH = "8cde2475d6b0cb1162b89ebbac71a95d"
 
 # OPTIONAL CONFIG
 GDRIVE_ID = ""
@@ -17,9 +11,9 @@ DOWNLOAD_DIR = "/usr/src/app/downloads"
 STATUS_UPDATE_INTERVAL = "20"                       
 AUTO_DELETE_MESSAGE_DURATION = "60"       
 AUTO_DELETE_UPLOAD_MESSAGE_DURATION = "-1" 
-DATABASE_URL = ""
+DATABASE_URL = "mongodb+srv://v:v@cluster0.7bn9jdi.mongodb.net/?retryWrites=true&w=majority😁"
 AUTHORIZED_CHATS = ""
-SUDO_USERS = ""
+SUDO_USERS = "1258310642"
 IGNORE_PENDING_REQUESTS = ""
 IS_TEAM_DRIVE = ""
 USE_SERVICE_ACCOUNTS = ""
@@ -35,7 +29,7 @@ INCOMPLETE_TASK_NOTIFIER = ""
 TGH_THUMB = ""                                        # Give Telegraph URL(graph.org) for Logs/File Thumbnail
 
 # TURN ON/OFF FUCTIONS
-LEECH_ENABLED = ""                                    # Default is False (only use by owner/sudo) Make it True (for authorized chats)
+LEECH_ENABLED = "True"                                    # Default is False (only use by owner/sudo) Make it True (for authorized chats)
 MIRROR_ENABLED = ""                                   # Default is False (only use by owner/sudo) Make it True (for authorized chats)
 QB_MIRROR_ENABLED = ""                                # Default is False (only use by owner/sudo) Make it True (for authorized chats)
 WATCH_ENABLED = ""                                    # Default is False (only use by owner/sudo) Make it True (for authorized chats)
@@ -46,7 +40,7 @@ MEDIAINFO_ENABLED = ""                                # Default is False (only u
 SET_BOT_COMMANDS = "" 
 
 # UPDATE
-UPSTREAM_REPO = ""
+UPSTREAM_REPO = "https://github.com/Vishnu1238881/WZML"
 UPSTREAM_BRANCH = ""
 UPDATE_PACKAGES = "False"
 
@@ -54,7 +48,7 @@ UPDATE_PACKAGES = "False"
 SAFE_MODE = ""                                        # If this true file name will hide from status message and BOT_PM, FORCE_BOT_PM will enable automatically. Default is False.
 
 # PM SUPPORT
-BOT_PM = ""                                           # If this True/False any User can Enable/Disable BOT_PM by using Usetting
+BOT_PM = "True"                                           # If this True/False any User can Enable/Disable BOT_PM by using Usetting
 FORCE_BOT_PM = ""                                     # If this True then NO User can Enable/Disable BOT_PM by using Usetting 
 
 # LEECH
@@ -70,8 +64,8 @@ LINK_LOGS = ""                                        # Must be Started with -10
 
 # OTHERS UTILS
 TG_SPLIT_SIZE = ""                                    # Each User can set its own using usetting
-EQUAL_SPLITS = ""                                     # Each User can Enable/Disable using usetting
-AS_DOCUMENT = ""                                      # Each User can Change Document/Media using usetting
+EQUAL_SPLITS = ""                           😁😁😁😁😁          # Each User can Enable/Disable using usetting
+AS_DOCUMENT = "True"                                      # Each User can Change Document/Media using usetting
 PAID_SERVICE = ""                                     # Default is False
 TIMEZONE = "Asia/Kolkata"                             # Checkout for Different timezone list https://bit.ly/2JtQfVI
 
